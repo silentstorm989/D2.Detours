@@ -4,6 +4,7 @@
 #include <DetoursPatch.h>
 
 #define LOG_PREFIX "(D2.DetoursLauncher):"
+#define LOG_PREFIX_W "L(D2.DetoursLauncher):"
 #include "Log.h"
 
 static void ResumeWaitAndCleanChildProcess(const PROCESS_INFORMATION& pi)

@@ -2,8 +2,10 @@
 #include <DetoursHelpers.h>
 #include <Windows.h>
 #include <detours.h>
+#include <cassert>
 
 #define LOG_PREFIX "(D2CMP.detours):"
+#define LOG_PREFIX_W L"(D2CMP.detours):"
 #include "Log.h"
 
 struct PL2File;

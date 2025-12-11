@@ -7,6 +7,7 @@
 #include <shlwapi.h>
 
 #define LOG_PREFIX "(D2Common.detours):"
+#define LOG_PREFIX_W "L(D2Common.detours):"
 #include "Log.h"
 
 const size_t maxEnvPathLen = 32'767; // From the win32 docs

@@ -3,8 +3,10 @@
 #include <DetoursHelpers.h>
 #include "DetoursPatch.h"
 #include <psapi.h>
+#include <cassert>
 
 #define LOG_PREFIX "(D2detours.patch):"
+#define LOG_PREFIX_W "L(D2detours.patch):"
 #include "Log.h"
 #include <unordered_map>
 

@@ -8,6 +8,7 @@
 #include <vector>
 
 #define LOG_PREFIX "(DetoursHelpers):"
+#define LOG_PREFIX_W "L(DetoursHelpers):"
 #include "Log.h"
 
 // Uncomment for extensive tracing of LoadLibrary and patching
